@@ -671,14 +671,14 @@ header .navbar ul li a:hover {
 /* work section starts */
 .work {
   /* background: #010124; */
-  background: linear-gradient(to bottom, #000031, #00002c);
+  background-color: #98C1D9;
 }
 .work h2 {
-  color: #fff;
+  color: #293241;
   padding: 1rem;
 }
 .work .heading span {
-  color: rgb(255, 230, 0);
+  color: #3D5A80;
 }
 .work .box-container {
   display: flex;
@@ -717,7 +717,7 @@ header .navbar ul li a:hover {
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #E0FBFC;
 }
 .work .box-container .box .content .tag h3 {
   font-size: 2rem;
