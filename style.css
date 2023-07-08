@@ -332,21 +332,14 @@ header .navbar ul li a:hover {
 
 /* hero media queries starts*/
 @media (max-width: 450px) {
-  .home .btn {
-    margin: 4rem 0;
-  }
-  .socials {
-    margin-top: 12rem;
-  }
-  .home .image img {
-    margin-top: 10rem;
-  }
-  .home .content p {
-    font-size: 2.2rem;
-  }
-  .home .content p span {
-    font-size: 2.2rem;
-  }
+  
+  .home .content {
+   padding-top: 5rem;
+ }
+ .home .image img {
+   margin-top: -5rem;
+ }
+
 }
 /* hero media queries ends*/
 /* hero section end */
@@ -447,25 +440,50 @@ header .navbar ul li a:hover {
 }
 /* about media queries starts*/
 @media screen and (max-width: 600px) {
-  .about .row .image {
+   
+  .heading {
+    font-size: 3.5rem;
+    color:  #293241;
+    font-weight: 800;
+    text-align: center;
     margin-top: 2rem;
   }
-  .about .row .image img {
-    margin: 0 auto;
-    width: 80%;
-    mix-blend-mode: normal;
+    
+    .about .row .image {
+      margin-top: 5rem;
+    }
+    .about .row .image img {
+      margin: 0 auto;
+      width: 80%;
+      mix-blend-mode: normal;
+    }
+    
+    .about .row .content h3 {
+    font-size: 2.2rem;
+      text-align: center;
   }
-  .about .row {
-    padding: 0.5rem;
-    margin-bottom: 7rem;
+    
+    .about .row .content .tag {
+    font-size: 1.4rem;
+    color: #3D5A80;
+    font-weight: 600;
+    margin-top: 60rem;
+      text-align: center;
   }
-  .about .row .content {
-    padding: 1rem;
+    .resumebtn {
+    margin-top: 3rem;
   }
-  .about .row .content .box-container {
-    gap: 0;
+    .about .row {
+      padding: 0.5rem;
+      margin-bottom: 0rem;
+    }
+    .about .row .content {
+      padding: 1rem;
+    }
+    .about .row .content .box-container {
+      gap: 0;
+    }
   }
-}
 /* about media queries ends*/
 /* about section ends */
 
