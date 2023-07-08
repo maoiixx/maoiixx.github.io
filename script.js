@@ -45,7 +45,7 @@ $(document).ready(function () {
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-  strings: ["Developer","Photographer","Editor","Coffee Addict"],
+  strings: ["Developer","Photographer","Graphic Editor","Coffee Addict","Tech Support"],
   loop: true,
   typeSpeed: 5,
   backSpeed: 5,
